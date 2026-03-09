@@ -1,4 +1,4 @@
-from modules import profile, number_games, word_tools, calculator, trivia
+from modules import profile, number_games, word_tools, calculator, trivia, dice
 from modules.ui import c, error, CYAN, MAGENTA, YELLOW, GREEN, BOLD, DIM
 
 
@@ -8,6 +8,7 @@ MODULES = {
     "3": ("Word Tools",        "📝", word_tools),
     "4": ("Mini Calculator",   "🔢", calculator),
     "5": ("Trivia Quiz",       "🧠", trivia),
+    "6": ("Dice & Coin",       "🎯", dice),
 }
 
 
